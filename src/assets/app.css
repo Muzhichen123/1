@@ -1,0 +1,23 @@
+@import url('https://fonts.font.im/css?family=Oswald');
+@import url(//at.alicdn.com/t/c/font_4790410_5gys1t1lrcf.css);
+:root {
+    --main-color: #0022aa;
+    --p-m-g: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Oswald', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+.router-link-active ,
+.router-link-exact-active {
+    color:var(--main-color);
+}
